@@ -1,3 +1,7 @@
+.active-page {
+  
+
+/* Navigation */
 #topNav {
   background: dimgray;
   box-shadow: 0px 1px 10px 10px lightgray;
@@ -19,4 +23,37 @@
 }
 #topNav a:hover {
   color: lime;
+}
+
+
+  
+/* Mission Statement Table */
+body {
+  font-family: Helvetica;
+  max-width: 900px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+h2 {
+  text-align: center;
+}
+
+table {
+  text-align: center;
+  border-collapse: collapse;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+th, td {
+  padding: 8px;
+}
+
+td {
+  border: 1px solid;
+}
+
+.choice {
+  font-style: italic;
 }
